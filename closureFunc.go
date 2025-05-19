@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func closure_func(name string) {
+func closure_func(name string) int {
 	hoo := func(a, b int) {
 		result := a*b
 		fmt.Printf("hoo() = %d \n", result)
